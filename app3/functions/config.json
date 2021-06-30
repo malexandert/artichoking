@@ -3,5 +3,9 @@
         "name": "function1",
         "private": false,
         "run_as_system": true
+    },
+    {
+        "name": "function2",
+        "private": false
     }
 ]
