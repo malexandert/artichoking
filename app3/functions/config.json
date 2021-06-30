@@ -15,5 +15,9 @@
     {
         "name": "function4",
         "private": false
+    },
+    {
+        "name": "function5",
+        "private": false
     }
 ]
