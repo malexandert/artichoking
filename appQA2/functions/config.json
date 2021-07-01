@@ -3,5 +3,9 @@
         "name": "myFunc",
         "private": true,
         "can_evaluate": {}
+    },
+    {
+        "name": "function0",
+        "private": false
     }
 ]
