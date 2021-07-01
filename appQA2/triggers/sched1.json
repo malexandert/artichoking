@@ -1,0 +1,10 @@
+{
+    "id": "60ddd2ef89bf82dc31f81e96",
+    "name": "sched1",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "*/1 * * * *"
+    },
+    "function_name": "myFunc",
+    "disabled": false
+}

@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "name": "myFunc",
+        "private": true,
+        "can_evaluate": {}
+    }
+]
