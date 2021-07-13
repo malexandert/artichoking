@@ -9,6 +9,9 @@
         "limit": {
             "bsonType": "int"
         },
+        "part7": {
+            "bsonType": "string"
+        },
         "products": {
             "bsonType": "array",
             "items": {
@@ -16,5 +19,8 @@
             }
         }
     },
+    "required": [
+        "part7"
+    ],
     "title": "account"
 }
