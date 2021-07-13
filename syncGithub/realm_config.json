@@ -1,0 +1,7 @@
+{
+    "app_id": "syncgithub-zfjux",
+    "config_version": 20210101,
+    "name": "syncGithub",
+    "location": "US-VA",
+    "deployment_model": "GLOBAL"
+}
