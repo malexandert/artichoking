@@ -1,5 +1,6 @@
 {
     "state": "enabled",
+    "database_name": "app",
     "partition": {
         "key": "app_id",
         "type": "objectId",
@@ -12,6 +13,6 @@
             }
         }
     },
-    "development_mode_enabled": false,
+    "development_mode_enabled": true,
     "service_name": "mango"
 }
