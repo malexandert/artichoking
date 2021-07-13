@@ -2,13 +2,10 @@
     "state": "enabled",
     "database_name": "sample_airbnb",
     "partition": {
-        "key": "part1",
+        "key": "part2",
         "type": "string",
         "required": true,
-        "permissions": {
-            "read": true,
-            "write": true
-        }
+        "permissions": {}
     },
     "development_mode_enabled": true,
     "service_name": "mongodb-atlas"
