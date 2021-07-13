@@ -1,7 +1,7 @@
 {
-    "app_id": "syncgithub2-igfsl",
+    "app_id": "syncgithub3-kcigf",
     "config_version": 20210101,
-    "name": "syncGithub2",
+    "name": "syncGithub3",
     "location": "US-VA",
     "deployment_model": "GLOBAL"
 }
