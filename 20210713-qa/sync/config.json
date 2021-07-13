@@ -1,10 +1,8 @@
 {
-    "state": "enabled",
-    "database_name": "sample_airbnb",
+    "state": "",
     "partition": {
-        "key": "part4",
-        "type": "string",
-        "required": true,
+        "key": "",
+        "type": "",
         "permissions": {}
     },
     "development_mode_enabled": false,
