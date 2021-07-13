@@ -1,3 +1,17 @@
 {
-    "development_mode_enabled": false
+    "state": "enabled",
+    "partition": {
+        "key": "app_id",
+        "type": "objectId",
+        "permissions": {
+            "read": {
+                "%%partition": "%%user.id"
+            },
+            "write": {
+                "%%partition": "%%user.id"
+            }
+        }
+    },
+    "development_mode_enabled": false,
+    "service_name": "mango"
 }
