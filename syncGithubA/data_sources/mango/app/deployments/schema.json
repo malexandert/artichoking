@@ -1,0 +1,53 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "app_id": {
+            "bsonType": "objectId"
+        },
+        "commit": {
+            "bsonType": "string"
+        },
+        "deployed_at": {
+            "bsonType": "long"
+        },
+        "diff_url": {
+            "bsonType": "string"
+        },
+        "domain_id_hash": {
+            "bsonType": "long"
+        },
+        "draft_id": {
+            "bsonType": "objectId"
+        },
+        "hasDeploymentState": {
+            "bsonType": "bool"
+        },
+        "location": {
+            "bsonType": "string"
+        },
+        "name": {
+            "bsonType": "string"
+        },
+        "origin": {
+            "bsonType": "string"
+        },
+        "remote_location": {
+            "bsonType": "string"
+        },
+        "status": {
+            "bsonType": "string"
+        },
+        "status_error_message": {
+            "bsonType": "string"
+        },
+        "user_id": {
+            "bsonType": "string"
+        },
+        "version": {
+            "bsonType": "long"
+        }
+    },
+    "title": "deployment"
+}
