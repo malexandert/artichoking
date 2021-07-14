@@ -1,0 +1,9 @@
+{
+    "name": "devModeSyncSvc",
+    "type": "mongodb",
+    "config": {},
+    "secret_config": {
+        "uri": "__devModeSyncSvc_uri"
+    },
+    "version": 1
+}
