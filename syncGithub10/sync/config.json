@@ -1,5 +1,6 @@
 {
     "state": "enabled",
+    "database_name": "sample_airbnb",
     "partition": {
         "key": "access",
         "type": "string",
@@ -12,6 +13,6 @@
             }
         }
     },
-    "development_mode_enabled": false,
+    "development_mode_enabled": true,
     "service_name": "mongodb-atlas"
 }
