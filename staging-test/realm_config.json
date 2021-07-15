@@ -1,0 +1,7 @@
+{
+    "app_id": "staging-test-mpvgk",
+    "config_version": 20210101,
+    "name": "staging-test",
+    "location": "US-OR",
+    "deployment_model": "LOCAL"
+}
