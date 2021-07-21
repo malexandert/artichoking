@@ -14,5 +14,5 @@ exports = function(){
 
     Try running in the console below.
   */
-  return "beans";
+  return "salad";
 };
