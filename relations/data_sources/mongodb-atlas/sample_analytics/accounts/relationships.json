@@ -1,0 +1,8 @@
+{
+    "account_id": {
+        "ref": "#/relationship/mongodb-atlas/sample_airbnb/listingsAndReviews",
+        "source_key": "account_id",
+        "foreign_key": "accommodates",
+        "is_list": false
+    }
+}
