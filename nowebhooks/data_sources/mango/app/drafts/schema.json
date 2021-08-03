@@ -1,1 +1,517 @@
-{}
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "app": {
+            "bsonType": "object",
+            "properties": {
+                "_id": {
+                    "bsonType": "objectId"
+                },
+                "authProviders": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "object",
+                        "properties": {
+                            "_id": {
+                                "bsonType": "objectId"
+                            },
+                            "disabled": {
+                                "bsonType": "bool"
+                            },
+                            "name": {
+                                "bsonType": "string"
+                            },
+                            "type": {
+                                "bsonType": "string"
+                            }
+                        }
+                    }
+                },
+                "clientAppId": {
+                    "bsonType": "string"
+                },
+                "code_deploy": {
+                    "bsonType": "object",
+                    "properties": {
+                        "automatic_deployment": {
+                            "bsonType": "object",
+                            "properties": {
+                                "branch": {
+                                    "bsonType": "string"
+                                },
+                                "directory": {
+                                    "bsonType": "string"
+                                },
+                                "enabled": {
+                                    "bsonType": "bool"
+                                },
+                                "installation_ids": {
+                                    "bsonType": "array",
+                                    "items": {
+                                        "bsonType": "string"
+                                    }
+                                },
+                                "last_modified": {
+                                    "bsonType": "long"
+                                },
+                                "provider": {
+                                    "bsonType": "string"
+                                },
+                                "repository": {
+                                    "bsonType": "object",
+                                    "properties": {
+                                        "full_name": {
+                                            "bsonType": "string"
+                                        },
+                                        "id": {
+                                            "bsonType": "string"
+                                        },
+                                        "url": {
+                                            "bsonType": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "ui_drafts_disabled": {
+                            "bsonType": "bool"
+                        },
+                        "version": {
+                            "bsonType": "long"
+                        }
+                    }
+                },
+                "createdDate": {
+                    "bsonType": "long"
+                },
+                "creatorId": {
+                    "bsonType": "string"
+                },
+                "custom_user_data": {
+                    "bsonType": "object",
+                    "properties": {
+                        "collection_name": {
+                            "bsonType": "string"
+                        },
+                        "database_name": {
+                            "bsonType": "string"
+                        },
+                        "enabled": {
+                            "bsonType": "bool"
+                        },
+                        "user_id_field": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "deletedDate": {
+                    "bsonType": "long"
+                },
+                "deployment_model": {
+                    "bsonType": "string"
+                },
+                "domainId": {
+                    "bsonType": "objectId"
+                },
+                "domain_id_hash": {
+                    "bsonType": "int"
+                },
+                "eventSubscriptions": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "object",
+                        "properties": {
+                            "_id": {
+                                "bsonType": "objectId"
+                            },
+                            "config": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "clusterName": {
+                                        "bsonType": "string"
+                                    },
+                                    "collection": {
+                                        "bsonType": "string"
+                                    },
+                                    "database": {
+                                        "bsonType": "string"
+                                    },
+                                    "full_document": {
+                                        "bsonType": "bool"
+                                    },
+                                    "full_document_before_change": {
+                                        "bsonType": "bool"
+                                    },
+                                    "match": {
+                                        "bsonType": "string"
+                                    },
+                                    "operation_types": {
+                                        "bsonType": "array",
+                                        "items": {
+                                            "bsonType": "string"
+                                        }
+                                    },
+                                    "project": {
+                                        "bsonType": "string"
+                                    },
+                                    "resume_token_disabled": {
+                                        "bsonType": "bool"
+                                    },
+                                    "service_id": {
+                                        "bsonType": "objectId"
+                                    },
+                                    "unordered": {
+                                        "bsonType": "bool"
+                                    }
+                                }
+                            },
+                            "disabled": {
+                                "bsonType": "bool"
+                            },
+                            "functionId": {
+                                "bsonType": "objectId"
+                            },
+                            "last_modified": {
+                                "bsonType": "long"
+                            },
+                            "name": {
+                                "bsonType": "string"
+                            },
+                            "state": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "group_notified": {
+                                        "bsonType": "bool"
+                                    },
+                                    "host_inc": {
+                                        "bsonType": "long"
+                                    },
+                                    "producerState": {
+                                        "bsonType": "string"
+                                    },
+                                    "registration_attempts": {
+                                        "bsonType": "int"
+                                    },
+                                    "termId": {
+                                        "bsonType": "int"
+                                    },
+                                    "updatedAt": {
+                                        "bsonType": "long"
+                                    }
+                                }
+                            },
+                            "type": {
+                                "bsonType": "string"
+                            },
+                            "updateCount": {
+                                "bsonType": "int"
+                            }
+                        }
+                    }
+                },
+                "feature_flags": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "string"
+                    }
+                },
+                "functions": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "object",
+                        "properties": {
+                            "_id": {
+                                "bsonType": "objectId"
+                            },
+                            "canEvaluate": {
+                                "bsonType": "string"
+                            },
+                            "last_modified": {
+                                "bsonType": "long"
+                            },
+                            "name": {
+                                "bsonType": "string"
+                            },
+                            "path": {
+                                "bsonType": "string"
+                            },
+                            "private": {
+                                "bsonType": "bool"
+                            },
+                            "source": {
+                                "bsonType": "string"
+                            },
+                            "sourceMap": {
+                                "bsonType": "object",
+                                "properties": {}
+                            },
+                            "transpiledSource": {
+                                "bsonType": "string"
+                            }
+                        }
+                    }
+                },
+                "graphql": {
+                    "bsonType": "object",
+                    "properties": {
+                        "config": {
+                            "bsonType": "object",
+                            "properties": {
+                                "use_natural_pluralization": {
+                                    "bsonType": "bool"
+                                }
+                            }
+                        }
+                    }
+                },
+                "groupId": {
+                    "bsonType": "string"
+                },
+                "lastUsed": {
+                    "bsonType": "long"
+                },
+                "last_modified": {
+                    "bsonType": "long"
+                },
+                "location": {
+                    "bsonType": "string"
+                },
+                "name": {
+                    "bsonType": "string"
+                },
+                "product": {
+                    "bsonType": "string"
+                },
+                "schemaVersion": {
+                    "bsonType": "int"
+                },
+                "schema_options": {
+                    "bsonType": "object",
+                    "properties": {
+                        "validation_settings": {
+                            "bsonType": "object",
+                            "properties": {
+                                "graphql": {
+                                    "bsonType": "object",
+                                    "properties": {
+                                        "read_validation_action": {
+                                            "bsonType": "string"
+                                        },
+                                        "read_validation_level": {
+                                            "bsonType": "string"
+                                        },
+                                        "write_validation_action": {
+                                            "bsonType": "string"
+                                        },
+                                        "write_validation_level": {
+                                            "bsonType": "string"
+                                        }
+                                    }
+                                },
+                                "rest": {
+                                    "bsonType": "object",
+                                    "properties": {
+                                        "read_validation_action": {
+                                            "bsonType": "string"
+                                        },
+                                        "read_validation_level": {
+                                            "bsonType": "string"
+                                        },
+                                        "write_validation_action": {
+                                            "bsonType": "string"
+                                        },
+                                        "write_validation_level": {
+                                            "bsonType": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "secrets": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "object",
+                        "properties": {
+                            "_id": {
+                                "bsonType": "objectId"
+                            },
+                            "name": {
+                                "bsonType": "string"
+                            },
+                            "value": {
+                                "bsonType": "string"
+                            }
+                        }
+                    }
+                },
+                "security": {
+                    "bsonType": "object",
+                    "properties": {}
+                },
+                "services": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "object",
+                        "properties": {
+                            "_id": {
+                                "bsonType": "objectId"
+                            },
+                            "config": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "sid": {
+                                        "bsonType": "string"
+                                    },
+                                    "sync": {
+                                        "bsonType": "object",
+                                        "properties": {
+                                            "database_name": {
+                                                "bsonType": "string"
+                                            },
+                                            "partition": {
+                                                "bsonType": "object",
+                                                "properties": {
+                                                    "key": {
+                                                        "bsonType": "string"
+                                                    },
+                                                    "permissions": {
+                                                        "bsonType": "object",
+                                                        "properties": {
+                                                            "read": {
+                                                                "bsonType": "string"
+                                                            },
+                                                            "write": {
+                                                                "bsonType": "string"
+                                                            }
+                                                        }
+                                                    },
+                                                    "required": {
+                                                        "bsonType": "bool"
+                                                    },
+                                                    "type": {
+                                                        "bsonType": "string"
+                                                    }
+                                                }
+                                            },
+                                            "state": {
+                                                "bsonType": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "incomingWebhooks": {
+                                "bsonType": "array",
+                                "items": {
+                                    "bsonType": "object",
+                                    "properties": {
+                                        "_id": {
+                                            "bsonType": "objectId"
+                                        },
+                                        "disable_arg_logs": {
+                                            "bsonType": "bool"
+                                        },
+                                        "function_source": {
+                                            "bsonType": "string"
+                                        },
+                                        "function_source_map": {
+                                            "bsonType": "object",
+                                            "properties": {}
+                                        },
+                                        "function_transpiled_source": {
+                                            "bsonType": "string"
+                                        },
+                                        "last_modified": {
+                                            "bsonType": "long"
+                                        },
+                                        "name": {
+                                            "bsonType": "string"
+                                        },
+                                        "options": {
+                                            "bsonType": "object",
+                                            "properties": {
+                                                "httpMethod": {
+                                                    "bsonType": "string"
+                                                },
+                                                "validationMethod": {
+                                                    "bsonType": "string"
+                                                }
+                                            }
+                                        },
+                                        "respondResult": {
+                                            "bsonType": "bool"
+                                        },
+                                        "run_as_authed_user": {
+                                            "bsonType": "bool"
+                                        },
+                                        "run_as_user_id": {
+                                            "bsonType": "string"
+                                        },
+                                        "run_as_user_id_script_source": {
+                                            "bsonType": "string"
+                                        },
+                                        "run_as_user_id_script_source_map": {
+                                            "bsonType": "object",
+                                            "properties": {}
+                                        },
+                                        "run_as_user_id_script_transpiled_source": {
+                                            "bsonType": "string"
+                                        }
+                                    }
+                                }
+                            },
+                            "last_modified": {
+                                "bsonType": "long"
+                            },
+                            "name": {
+                                "bsonType": "string"
+                            },
+                            "secret_config": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "auth_token": {
+                                        "bsonType": "string"
+                                    },
+                                    "uri": {
+                                        "bsonType": "string"
+                                    }
+                                }
+                            },
+                            "type": {
+                                "bsonType": "string"
+                            },
+                            "version": {
+                                "bsonType": "int"
+                            }
+                        }
+                    }
+                },
+                "sync": {
+                    "bsonType": "object",
+                    "properties": {
+                        "development_mode_enabled": {
+                            "bsonType": "bool"
+                        }
+                    }
+                }
+            }
+        },
+        "domain_id_hash": {
+            "bsonType": "int"
+        },
+        "for_deployment": {
+            "bsonType": "bool"
+        },
+        "location": {
+            "bsonType": "string"
+        },
+        "user_id": {
+            "bsonType": "string"
+        }
+    },
+    "title": "draft"
+}
