@@ -1,0 +1,11 @@
+{
+    "name": "aws",
+    "type": "aws",
+    "config": {
+        "accessKeyId": "access"
+    },
+    "secret_config": {
+        "secretAccessKey": "secret1"
+    },
+    "version": 1
+}
